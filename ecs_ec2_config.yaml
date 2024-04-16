@@ -180,7 +180,7 @@ exporters:
     endpoint: "${SPLUNK_HEC_URL}"
     source: "otel"
     sourcetype: "otel"
-    index: log_testing
+    index: "log_testing"
     tls:
       insecure_skip_verify: true
 
